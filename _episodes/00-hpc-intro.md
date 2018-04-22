@@ -1,22 +1,23 @@
 ---
-title: "What is High Performance Computing?"
+title: "고성능 컴퓨팅(HPC)이란 무엇인가?"
 teaching: 15 
 exercises: 5
 questions:
-- "Why would I be interested in High Performance Computing (HPC)?"
-- "What can I expect to learn from this course?"
+- "고성능 컴퓨팅(HPC)에 관심을 가져야 하는 이유는 무엇인가?"
+- "이번 학습을 통해 얻고자 하는 것은 무엇인가?"
 objectives:
-- "Be able to describe what an HPC system is"
-- "Identify how an HPC system could benefit you."  
+- "HPC 시스템이 무엇인지 기술할 수 있다."
+- "HPC 시스템이 어떻게 이로움을 주는 식별한다."  
 keypoints:
-- "High Performance Computing (HPC) typically involves connecting to very large computing systems elsewhere in the world."
-- "These other systems can be used to do work that would either be impossible or much slower or smaller systems."
-- "The standard method of interacting with such systems is via a command line interface called Bash."
+- "고성능 컴퓨팅(HPC)은 전세계 산재하는 매우 커다란 컴퓨팅 시스템에 접속하는 것과 관계된다."
+- "이러한 시스템을 사용해서 더 작은 시스템 혹은 훨씬 더 느리거나, 불가능한 작업을 수행하는데 동원된다."
+- "이런 시스템과 상호작용하는 표준 방법은 배쉬(bash)로 불리는 명령라인 인터페이스를 통한다."
 ---
 
-## What is High Performance Computing (HPC)?
+## 고성능 컴퓨팅(HPC)이란 무엇인가?
 
-High Performance Computing (HPC) is the name given to the use of computers with
+고성능 컴퓨팅(High Performance Computing, HPC)
+ is the name given to the use of computers with
 capabilities well beyond the scope of standard desktop computers.   The
 computers that qualify as HPC systems are typically seen as being more powerful
 than other systems, usually because they have more central processing units

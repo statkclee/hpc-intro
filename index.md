@@ -3,22 +3,24 @@ layout: lesson
 root: .
 ---
 
-This workshop is an introduction to using high-performance computing systems effectively.
-We obviously can't cover every case or give an exhaustive course on parallel programming in just two days' of teaching time.
-Instead, this workshop is intended to give students a good introduction and overview of the tools available and how to use them effectively.
+금번 워크샵을 통해 고성능 컴퓨팅 시스템을 효과적으로 사용하는 방법을 소개하고자 한다.
+단지 주어진 2일 안에 병렬 프로그래밍에 대한 모든 전반적인 내용을 다룰 수는 없다.
+대신에, 금번 워크샵을 통해서 학습참석자에게 기본개념과 이용가능한 도구에 대한 소개, 
+그리고 효과적으로 사용하는 방법에 방점을 두고 있다.
 
-By the end of this workshop, students will know how to:
+2일간의 워크샵을 마치게 되면, 학습 참석자는 다음 사항에 대한 지식을 축적하게 된다:
 
-* Use the UNIX command line to operate a computer, connect to a cluster, and write simple shell scripts.
-* Submit and manage jobs on a cluster using a scheduler, transfer files, and use software through environment modules.
-* Learn the fundamentals of programming in Python or Chapel.
-* Understand parallel programming strategies, and write basic parallel code in Python or Chapel. 
+* 유닉스 명령라인(command line)을 사용해서 컴퓨터를 조작하고, 클러스터에 접속하고, 간단한 쉘 스크립트를 작성할 수 있게 된다.
+* 스케줄러를 사용해서 클러스터에서 작업(job)을 넣고 관리하는 방법과 파일을 전송하는 방법, 환경모듈(environment module)을 통해 소프트웨어를 사용하는 방식을 익히게 된다.
+* 프로그래밍 기초를 파이썬(python) 혹은 채플(chapel)로 학습한다.
+* 병렬프로그래밍 전략을 이해하고 파이썬 혹은 채플로 기초적인 별렬 코드를 작성한다.
 
-**NOTE: This is the draft HPC Carpentry release. Comments and feedback are welcome.** 
 
-> ## Prerequisites
+**주의: HPC 카펜트리 초안으로 피드백과 코멘트는 언제나 확영합니다.** 
+
+> ## 선수과목
 >
-> There are no real prerequisites for this lesson, 
-> but prior programming and/or command line experience will be helpful.
+> 진정한 의미의 선수과목은 없지만,
+> 프로그래밍 혹은 명령라인을 활용한 경험은 도움이 될 수 있다.
 {: .prereq}
 
